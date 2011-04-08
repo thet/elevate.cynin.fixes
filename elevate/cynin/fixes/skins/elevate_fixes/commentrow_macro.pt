@@ -62,7 +62,7 @@ Mumbai-400064, India
                fullname python: mi and mi['fullname'] or creator;
                avatarurl python: here.portal_membership.getPersonalPortrait(creator).absolute_url();
                util python: here.translation_service;
-               formatted_time python:util.ulocalized_time(reply.ModificationDate(), long_format=True, time_only=False, context=here, domain='plonelocales');
+               formatted_time python:util.ulocalized_time(reply.ModificationDate(), long_format=True, context=here, domain='plonelocales');
                userHasReplyPermission userHasReplyPermission|nothing;
                userHasReplyPermission python:(userHasReplyPermission != None and userHasReplyPermission) or here.portal_membership.checkPermission('Reply to item', context) > 0;
                isDiscussionAllowed isDiscussionAllowed|nothing;
