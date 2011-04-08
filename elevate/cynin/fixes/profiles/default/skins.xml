@@ -2,7 +2,7 @@
 <object name="portal_skins">
  <object name="elevate_fixes"
     meta_type="Filesystem Directory View"
-    directory="collective.gallery:skins/elevate_fixes"/>
+    directory="elevate.cynin.fixes:skins/elevate_fixes"/>
  <skin-path name="*">
   <layer name="elevate_fixes" insert-after="custom"/>
  </skin-path>
