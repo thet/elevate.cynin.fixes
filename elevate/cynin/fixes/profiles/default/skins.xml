@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+ <object name="elevate-fixes"
+    meta_type="Filesystem Directory View"
+    directory="collective.gallery:skins/elevate-fixes"/>
+ <skin-path name="*">
+  <layer name="elevate-fixes" insert-after="custom"/>
+ </skin-path>
+</object>
