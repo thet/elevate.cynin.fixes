@@ -3,6 +3,7 @@
     xmlns:cmf="http://namespaces.zope.org/cmf"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     i18n_domain="elevate.cynin.fixes">
 
@@ -16,5 +17,13 @@
       description='elevate.cynin.fixes default profile.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
+    <include package="collective.monkeypatcher" />
+    <monkey:patch
+        description="Fix cynin's getAdminUser"
+        module="ubify.coretypes"
+        original="getAdminUser"
+        replacement=".monkeypatches.getAdminUser"
+        />
 
 </configure>
