@@ -26,7 +26,6 @@ setup(name='elevate.cynin.fixes',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
-         'ubify.cyninv2theme',
          'collective.monkeypatcher',
       ],
       )
