@@ -27,5 +27,6 @@ setup(name='elevate.cynin.fixes',
           'setuptools',
           # -*- Extra requirements: -*-
          'collective.monkeypatcher',
+         'collective.autolinks',
       ],
       )
