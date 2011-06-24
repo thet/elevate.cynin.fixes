@@ -3,5 +3,6 @@
   <version>1</version>
   <dependencies>
     <dependency>profile-collective.autolinks:default</dependency>
+    <dependency>profile-Products.CacheSetup:default</dependency>
   </dependencies>
 </metadata>

@@ -28,5 +28,6 @@ setup(name='elevate.cynin.fixes',
           # -*- Extra requirements: -*-
          'collective.monkeypatcher',
          'collective.autolinks',
+         'Products.CacheSetup',
       ],
       )
