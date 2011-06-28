@@ -2,7 +2,9 @@
 <metadata>
   <version>1</version>
   <dependencies>
-    <dependency>profile-collective.autolinks:default</dependency>
-    <dependency>profile-Products.CacheSetup:default</dependency>
+    <!-- dependency>profile-collective.autolinks:default</dependency--><!--
+    error: kupu does not show anything anymore.. -->
+    <!-- dependency>profile-Products.CacheSetup:default</dependency--><!--
+    install manually -->
   </dependencies>
 </metadata>
