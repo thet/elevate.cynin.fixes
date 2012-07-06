@@ -2,6 +2,7 @@
 <metadata>
   <version>1</version>
   <dependencies>
+    <dependency>profile-plone.contentratings:default</dependency>
     <!-- dependency>profile-collective.autolinks:default</dependency--><!--
     error: kupu does not show anything anymore.. -->
     <!-- dependency>profile-Products.CacheSetup:default</dependency--><!--

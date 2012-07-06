@@ -29,5 +29,6 @@ setup(name='elevate.cynin.fixes',
          'collective.monkeypatcher',
          'collective.autolinks',
          'Products.CacheSetup',
+         'plone.contentratings',
       ],
       )

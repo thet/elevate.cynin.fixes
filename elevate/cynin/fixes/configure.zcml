@@ -10,9 +10,17 @@
 
   <include package="Products.CacheSetup" />
   <include package="collective.autolinks" />
+  <include package="plone.contentratings" />
   
   <five:registerPackage package="." initialize=".initialize" />
   <cmf:registerDirectory name="elevate_fixes"/>
+
+  <browser:viewlet
+      name="plone.contentratings.userratings"
+      manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
+      class="plone.contentratings.browser.viewlets.UserRatingViewlet"
+      permission="zope2.View"
+      />
 
   <genericsetup:registerProfile
       name="default"

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object>
+  <hidden manager="plone.belowcontenttitle">
+    <viewlet name="plone.contentratings.userratings" />
+  </hidden>
+  <hidden manager="plone.abovecontenttitler">
+    <viewlet name="plone.contentratings.userratings" />
+  </hidden> 
+</object>
